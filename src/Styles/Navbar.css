@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.logo_div{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    gap: .6em;
+}
+.logo_div p{
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav{
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+}
+.navlist{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.navlist li{
+    list-style-type: none;
+ font-family: "Noto Sans Old Turkic", sans-serif;
+  font-weight: 500;
+  display: flex;
+  font-style: normal;
+  cursor: pointer;
+  color: #626262;
+  flex-direction: column;
+}
+.login{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.login img{
+    width: 1.6em;
+}
+.login button{
+    height: 45px;
+    width: 130px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #FF4141;
+    border-radius: 78px;
+    font-size: 15px;
+    font-weight: 500;
+    background: white;
+}
+.login button:active{
+    background-color: #FF4141;
+    color: white;
+}
+.navlist li hr{
+    border: none;
+    width: 90%;
+    height: 1.7px;
+    border-radius: 10px;
+    background-color: #FF4141;
+    transition: width 0.3s ease;
+}
+.cart_count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -55px;
+    margin-top: -20px;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+.navlist li link{
+    text-decoration: none;
+}
