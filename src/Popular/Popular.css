@@ -21,3 +21,19 @@
     display: flex;
     gap: 30px;
 }
+
+@media (max-width: 768px) {
+    .popular {
+        height: auto;
+        padding: 20px 15px;
+    }
+    .popular h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .popular_item {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}

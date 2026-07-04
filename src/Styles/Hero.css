@@ -49,3 +49,34 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px;
+    }
+    .hero-left {
+        padding-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-left p {
+        font-size: 48px;
+    }
+    .hero-hand-icon {
+        justify-content: center;
+    }
+    .hero-latest-button {
+        width: 100%;
+        max-width: 280px;
+        font-size: 18px;
+    }
+    .hero-right {
+        padding-top: 20px;
+    }
+    .hero-right img {
+        width: 100%;
+        max-width: 320px;
+    }
+}

@@ -32,3 +32,20 @@
     padding: 48px;
     padding-bottom: 70px;
 }
+
+@media (max-width: 768px) {
+    .descriptionbox {
+        margin: 60px 20px;
+    }
+    .desc-navigator {
+        flex-wrap: wrap;
+    }
+    .desc-nav-box,
+    .desc-nav-box-fade {
+        width: 50%;
+        height: 56px;
+    }
+    .box-description {
+        padding: 24px;
+    }
+}

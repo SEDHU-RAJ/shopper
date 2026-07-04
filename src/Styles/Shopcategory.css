@@ -36,3 +36,21 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .shopcatgorybanner {
+        width: 90%;
+    }
+    .shopcategory-index {
+        margin: 0 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .shopcategory-products {
+        margin: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .loadmore {
+        margin: 80px auto 100px;
+    }
+}

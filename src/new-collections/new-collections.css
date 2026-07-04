@@ -22,3 +22,15 @@
     margin-top: 50px;
     gap: 30px;
 }
+
+@media (max-width: 768px) {
+    .Newcollections h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .collections {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 15px;
+        gap: 20px;
+    }
+}

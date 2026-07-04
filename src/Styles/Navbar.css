@@ -77,3 +77,65 @@
 .navlist li link{
     text-decoration: none;
 }
+
+.menu-toggle {
+    display: none;
+    border: none;
+    background: transparent;
+    font-size: 28px;
+    color: #ff4141;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 15px 20px;
+        position: relative;
+    }
+    .logo_div {
+        justify-content: center;
+    }
+    .logo_div p {
+        font-size: 22px;
+    }
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navlist {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8rem;
+        padding: 15px 0 5px;
+        margin-top: 10px;
+        background: white;
+        border-top: 1px solid #eee;
+    }
+    .navlist.open {
+        display: flex;
+    }
+    .navlist li {
+        width: 100%;
+        padding: 6px 0;
+    }
+    .login {
+        gap: 15px;
+        width: auto;
+        margin-left: auto;
+    }
+    .login button {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .cart_count {
+        margin-left: 0;
+        margin-top: -10px;
+    }
+}
