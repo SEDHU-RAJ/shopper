@@ -5,7 +5,7 @@ import Shop from './Pages/Shop'
 import Product from './Pages/Product'
 import ShopCategory from './Pages/ShopCategory'
 import Cart_page from './Pages/Cart_page'
-import Login_page from "./pages/Login_page";
+import Login_page from './Pages/Login_page';
 import Footer from './Components/Footer'
 import men_banner from './assets/banner_mens.png';
 import women_banner from './assets/banner_women.png';
